@@ -87,6 +87,10 @@ Public Class frmMaintenance
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub
+
+    Private Sub txtSchoolId_TextChanged(sender As Object, e As EventArgs) Handles txtSchoolId.TextChanged
+
+    End Sub
 End Class
 
 

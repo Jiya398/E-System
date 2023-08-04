@@ -2,6 +2,10 @@
 
 Public Class frmLogIn
 
+
+
+
+
     'Dim con As New MySqlConnection("server=localhost; username=root; password=; database= finalenroll")
 
     'Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnLogIn.Click
@@ -53,11 +57,48 @@ Public Class frmLogIn
     'End If
     'End Sub
 
+
+
+
+    Private Sub frmLogIn_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        con.Open()
+        If con.State = ConnectionState.Open Then
+            cmd = New MySqlCommand("Select * From tbladmin;", con)
+            da = New MySqlDataAdapter(cmd)
+            da.Fill(dt)
+
+            'DataGridView1.DataSource = dt
+            'DataGridView1.Refresh()
+
+            'cmd.Disposed()
+            'da.Disposed()
+        Else
+            MessageBox.Show("Connection Failed!" & vbNewLine & "Contact the System Administrator")
+        End If
+        con.Close()
+    End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged
 
     End Sub
 
-    Private Sub frmLogIn_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
+    Private Sub txtUserName_TextChanged(sender As Object, e As EventArgs) Handles txtUserName.TextChanged
 
     End Sub
 

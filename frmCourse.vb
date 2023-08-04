@@ -3,20 +3,24 @@
 Public Class frmCourse
 
     Private Sub frmCourse_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         Call LoadOnGridView()
     End Sub
+
 
 
     Private Sub frmCourse_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
         If e.KeyCode = Keys.Escape Then Me.Close()
     End Sub
 
-    Private Sub btnAddCourse_Click(sender As Object, e As EventArgs) Handles btnAddCourse.Click
 
+
+    Private Sub btnAddCourse_Click(sender As Object, e As EventArgs) Handles btnAddCourse.Click
         Dim sql As String
 
         If btnAddCourse.Text = "Add" Then
-            sql = "INSERT INTO tblcourse (Name, Desciption) VALUES('" & txtCode.Text & "', '" & txtDescription.Text & "');"
+            sql = "INSERT INTO tblcourse (course_code, description) VALUES('" & txtCode.Text & "', '" & txtDescription.Text & "');"
+
             con.Open()
             If con.State = ConnectionState.Open Then
                 cmd = New MySqlCommand(sql, con)
@@ -27,7 +31,7 @@ Public Class frmCourse
             End If
             con.Close()
         Else
-            sql = "UPDATE tblschoolyear SET school_year='" & txtCode.Text & "', term = '" & txtDescription.Text & "';"
+            sql = "UPDATE tblcourse SET course_code = '" & txtCode.Text & "', description = '" & txtDescription.Text & "' WHERE ID ;"
             con.Open()
             If con.State = ConnectionState.Open Then
                 cmd = New MySqlCommand(sql, con)
@@ -64,12 +68,16 @@ Public Class frmCourse
     End Sub
 
 
+
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
         txtCode.Text = DataGridView1.Item(1, e.RowIndex).Value
-        txtDescription.Text = DataGridView1.Item(3, e.RowIndex).Value
+        txtDescription.Text = DataGridView1.Item(2, e.RowIndex).Value
         btnAddCourse.Text = "Update"
         txtCode.Tag = DataGridView1.Item(0, e.RowIndex).Value
     End Sub
+
+
+
 
     Private Sub btnCancelCourse_Click(sender As Object, e As EventArgs) Handles btnCancelCourse.Click
         Me.Dispose()
@@ -91,7 +99,7 @@ Public Class frmCourse
         LoadOnGridView()
     End Sub
 
-    Private Sub btnRefreshCourse_Click(sender As Object, e As EventArgs) Handles btnRefreshCourse.Click
+    Private Sub btnClearCourse_Click(sender As Object, e As EventArgs) Handles btnClearCourse.Click
 
         txtCode.Text = ""
         txtDescription.Text = " "

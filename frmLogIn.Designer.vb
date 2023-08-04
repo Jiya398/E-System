@@ -33,6 +33,7 @@ Partial Class frmLogIn
         Me.btnClosed = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -48,49 +49,49 @@ Partial Class frmLogIn
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Elephant", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Elephant", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(322, 77)
+        Me.Label1.Location = New System.Drawing.Point(216, 78)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(171, 62)
+        Me.Label1.Size = New System.Drawing.Size(72, 25)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Login"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(82, 280)
+        Me.Label2.Location = New System.Drawing.Point(70, 253)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 24)
+        Me.Label2.Size = New System.Drawing.Size(75, 16)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Password"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(82, 179)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(70, 168)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(114, 24)
+        Me.Label3.Size = New System.Drawing.Size(85, 16)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "User Name"
         '
         'txtUserName
         '
-        Me.txtUserName.Location = New System.Drawing.Point(230, 179)
+        Me.txtUserName.Location = New System.Drawing.Point(244, 162)
         Me.txtUserName.Multiline = True
         Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(516, 34)
+        Me.txtUserName.Size = New System.Drawing.Size(297, 34)
         Me.txtUserName.TabIndex = 4
         '
         'txtPassword
         '
-        Me.txtPassword.Location = New System.Drawing.Point(230, 285)
+        Me.txtPassword.Location = New System.Drawing.Point(244, 244)
         Me.txtPassword.Multiline = True
         Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(516, 34)
+        Me.txtPassword.Size = New System.Drawing.Size(297, 34)
         Me.txtPassword.TabIndex = 5
         '
         'btnLogIn
@@ -108,9 +109,9 @@ Partial Class frmLogIn
         '
         Me.btnClosed.BackColor = System.Drawing.Color.FromArgb(CType(CType(189, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(81, Byte), Integer))
         Me.btnClosed.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClosed.Location = New System.Drawing.Point(513, 380)
+        Me.btnClosed.Location = New System.Drawing.Point(453, 320)
         Me.btnClosed.Name = "btnClosed"
-        Me.btnClosed.Size = New System.Drawing.Size(93, 37)
+        Me.btnClosed.Size = New System.Drawing.Size(88, 31)
         Me.btnClosed.TabIndex = 7
         Me.btnClosed.Text = "Cancel"
         Me.btnClosed.UseVisualStyleBackColor = False
@@ -118,7 +119,7 @@ Partial Class frmLogIn
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(41, 179)
+        Me.PictureBox1.Location = New System.Drawing.Point(29, 162)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(35, 34)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -128,19 +129,31 @@ Partial Class frmLogIn
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(41, 280)
+        Me.PictureBox2.Location = New System.Drawing.Point(29, 244)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(35, 34)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 9
         Me.PictureBox2.TabStop = False
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(189, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(329, 320)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(88, 31)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "Cancel"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'frmLogIn
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(159, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(856, 486)
+        Me.ClientSize = New System.Drawing.Size(597, 393)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnClosed)
@@ -170,4 +183,5 @@ Partial Class frmLogIn
     Friend WithEvents btnClosed As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Button1 As Button
 End Class

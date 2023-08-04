@@ -176,7 +176,7 @@ Partial Class frmStudent
         Me.Label61.AutoSize = True
         Me.Label61.Location = New System.Drawing.Point(499, 252)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(74, 16)
+        Me.Label61.Size = New System.Drawing.Size(73, 16)
         Me.Label61.TabIndex = 34
         Me.Label61.Text = "Address :"
         '
@@ -192,7 +192,7 @@ Partial Class frmStudent
         Me.Label60.AutoSize = True
         Me.Label60.Location = New System.Drawing.Point(19, 293)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(39, 16)
+        Me.Label60.Size = New System.Drawing.Size(38, 16)
         Me.Label60.TabIndex = 32
         Me.Label60.Text = "Tel :"
         '
@@ -208,7 +208,7 @@ Partial Class frmStudent
         Me.Label59.AutoSize = True
         Me.Label59.Location = New System.Drawing.Point(19, 252)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(79, 16)
+        Me.Label59.Size = New System.Drawing.Size(78, 16)
         Me.Label59.TabIndex = 30
         Me.Label59.Text = "Guardian :"
         '
@@ -250,7 +250,7 @@ Partial Class frmStudent
         Me.Label29.AutoSize = True
         Me.Label29.Location = New System.Drawing.Point(499, 355)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(101, 16)
+        Me.Label29.Size = New System.Drawing.Size(100, 16)
         Me.Label29.TabIndex = 23
         Me.Label29.Text = "School Year :"
         '
@@ -259,7 +259,7 @@ Partial Class frmStudent
         Me.Label51.AutoSize = True
         Me.Label51.Location = New System.Drawing.Point(19, 336)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(163, 16)
+        Me.Label51.Size = New System.Drawing.Size(162, 16)
         Me.Label51.TabIndex = 23
         Me.Label51.Text = "Last School Attended :"
         '
@@ -268,7 +268,7 @@ Partial Class frmStudent
         Me.rdoFemale.AutoSize = True
         Me.rdoFemale.Location = New System.Drawing.Point(552, 202)
         Me.rdoFemale.Name = "rdoFemale"
-        Me.rdoFemale.Size = New System.Drawing.Size(78, 20)
+        Me.rdoFemale.Size = New System.Drawing.Size(77, 20)
         Me.rdoFemale.TabIndex = 8
         Me.rdoFemale.TabStop = True
         Me.rdoFemale.Text = "Female"
@@ -279,7 +279,7 @@ Partial Class frmStudent
         Me.rdoMale.AutoSize = True
         Me.rdoMale.Location = New System.Drawing.Point(486, 202)
         Me.rdoMale.Name = "rdoMale"
-        Me.rdoMale.Size = New System.Drawing.Size(60, 20)
+        Me.rdoMale.Size = New System.Drawing.Size(59, 20)
         Me.rdoMale.TabIndex = 7
         Me.rdoMale.TabStop = True
         Me.rdoMale.Text = "Male"
@@ -351,7 +351,7 @@ Partial Class frmStudent
         Me.Label12.AutoSize = True
         Me.Label12.Location = New System.Drawing.Point(249, 181)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(44, 16)
+        Me.Label12.Size = New System.Drawing.Size(43, 16)
         Me.Label12.TabIndex = 12
         Me.Label12.Text = "Age :"
         '
@@ -360,7 +360,7 @@ Partial Class frmStudent
         Me.Label13.AutoSize = True
         Me.Label13.Location = New System.Drawing.Point(19, 183)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(103, 16)
+        Me.Label13.Size = New System.Drawing.Size(102, 16)
         Me.Label13.TabIndex = 10
         Me.Label13.Text = "Date Of Birth :"
         '
@@ -369,7 +369,7 @@ Partial Class frmStudent
         Me.Label14.AutoSize = True
         Me.Label14.Location = New System.Drawing.Point(542, 103)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(110, 16)
+        Me.Label14.Size = New System.Drawing.Size(109, 16)
         Me.Label14.TabIndex = 8
         Me.Label14.Text = "Place Of Birth :"
         '
@@ -378,7 +378,7 @@ Partial Class frmStudent
         Me.Label15.AutoSize = True
         Me.Label15.Location = New System.Drawing.Point(19, 103)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(74, 16)
+        Me.Label15.Size = New System.Drawing.Size(73, 16)
         Me.Label15.TabIndex = 6
         Me.Label15.Text = "Address :"
         '
@@ -458,7 +458,7 @@ Partial Class frmStudent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(22, 13)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(87, 16)
+        Me.Label2.Size = New System.Drawing.Size(86, 16)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Student ID :"
         '

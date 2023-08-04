@@ -62,6 +62,10 @@
         Me.Close()
     End Sub
 
+    Private Sub frmStudent_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
     'Private Sub dtpDbirth_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles dtpDbirth.ValueChanged
     'Try
     'Dim age As Integer

@@ -70,10 +70,10 @@ Partial Class MDIParent1
         Me.ManageCourseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ManageSectionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ManageSubjectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ManageCourseToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EnrollmentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StudentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TeachersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ManageCourseToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -316,44 +316,44 @@ Partial Class MDIParent1
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.MaintenanceToolStripMenuItem, Me.ManagementToolStripMenuItem, Me.EnrollmentToolStripMenuItem, Me.StudentsToolStripMenuItem, Me.TeachersToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(1370, 33)
+        Me.MenuStrip.Size = New System.Drawing.Size(1370, 24)
         Me.MenuStrip.TabIndex = 5
         Me.MenuStrip.Text = "MenuStrip"
         '
         'HomeToolStripMenuItem
         '
         Me.HomeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.LogoutToolStripMenuItem, Me.ChangePasswordToolStripMenuItem})
-        Me.HomeToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HomeToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HomeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText
         Me.HomeToolStripMenuItem.Image = CType(resources.GetObject("HomeToolStripMenuItem.Image"), System.Drawing.Image)
         Me.HomeToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.HomeToolStripMenuItem.Name = "HomeToolStripMenuItem"
-        Me.HomeToolStripMenuItem.Size = New System.Drawing.Size(90, 29)
+        Me.HomeToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
         Me.HomeToolStripMenuItem.Text = "Home"
         '
         'LoginToolStripMenuItem
         '
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(233, 30)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(233, 30)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'ChangePasswordToolStripMenuItem
         '
         Me.ChangePasswordToolStripMenuItem.Name = "ChangePasswordToolStripMenuItem"
-        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(233, 30)
+        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ChangePasswordToolStripMenuItem.Text = "Change Password"
         '
         'MaintenanceToolStripMenuItem
         '
         Me.MaintenanceToolStripMenuItem.Image = CType(resources.GetObject("MaintenanceToolStripMenuItem.Image"), System.Drawing.Image)
         Me.MaintenanceToolStripMenuItem.Name = "MaintenanceToolStripMenuItem"
-        Me.MaintenanceToolStripMenuItem.Size = New System.Drawing.Size(104, 29)
+        Me.MaintenanceToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
         Me.MaintenanceToolStripMenuItem.Text = "Maintenance"
         '
         'ManagementToolStripMenuItem
@@ -361,7 +361,7 @@ Partial Class MDIParent1
         Me.ManagementToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ManageSchoolYearToolStripMenuItem, Me.ManageCourseToolStripMenuItem, Me.ManageSectionToolStripMenuItem, Me.ManageSubjectToolStripMenuItem, Me.ManageCourseToolStripMenuItem1})
         Me.ManagementToolStripMenuItem.Image = CType(resources.GetObject("ManagementToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ManagementToolStripMenuItem.Name = "ManagementToolStripMenuItem"
-        Me.ManagementToolStripMenuItem.Size = New System.Drawing.Size(106, 29)
+        Me.ManagementToolStripMenuItem.Size = New System.Drawing.Size(106, 20)
         Me.ManagementToolStripMenuItem.Text = "Management"
         '
         'ManageSchoolYearToolStripMenuItem
@@ -388,32 +388,32 @@ Partial Class MDIParent1
         Me.ManageSubjectToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
         Me.ManageSubjectToolStripMenuItem.Text = "Manage Subject"
         '
+        'ManageCourseToolStripMenuItem1
+        '
+        Me.ManageCourseToolStripMenuItem1.Name = "ManageCourseToolStripMenuItem1"
+        Me.ManageCourseToolStripMenuItem1.Size = New System.Drawing.Size(181, 22)
+        Me.ManageCourseToolStripMenuItem1.Text = "Manage Course"
+        '
         'EnrollmentToolStripMenuItem
         '
         Me.EnrollmentToolStripMenuItem.Image = CType(resources.GetObject("EnrollmentToolStripMenuItem.Image"), System.Drawing.Image)
         Me.EnrollmentToolStripMenuItem.Name = "EnrollmentToolStripMenuItem"
-        Me.EnrollmentToolStripMenuItem.Size = New System.Drawing.Size(93, 29)
+        Me.EnrollmentToolStripMenuItem.Size = New System.Drawing.Size(93, 20)
         Me.EnrollmentToolStripMenuItem.Text = "Enrollment"
         '
         'StudentsToolStripMenuItem
         '
         Me.StudentsToolStripMenuItem.Image = CType(resources.GetObject("StudentsToolStripMenuItem.Image"), System.Drawing.Image)
         Me.StudentsToolStripMenuItem.Name = "StudentsToolStripMenuItem"
-        Me.StudentsToolStripMenuItem.Size = New System.Drawing.Size(81, 29)
+        Me.StudentsToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
         Me.StudentsToolStripMenuItem.Text = "Students"
         '
         'TeachersToolStripMenuItem
         '
         Me.TeachersToolStripMenuItem.Image = CType(resources.GetObject("TeachersToolStripMenuItem.Image"), System.Drawing.Image)
         Me.TeachersToolStripMenuItem.Name = "TeachersToolStripMenuItem"
-        Me.TeachersToolStripMenuItem.Size = New System.Drawing.Size(80, 29)
+        Me.TeachersToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
         Me.TeachersToolStripMenuItem.Text = "Teachers"
-        '
-        'ManageCourseToolStripMenuItem1
-        '
-        Me.ManageCourseToolStripMenuItem1.Name = "ManageCourseToolStripMenuItem1"
-        Me.ManageCourseToolStripMenuItem1.Size = New System.Drawing.Size(181, 22)
-        Me.ManageCourseToolStripMenuItem1.Text = "Manage Course"
         '
         'MDIParent1
         '

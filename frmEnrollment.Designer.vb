@@ -91,14 +91,14 @@ Partial Class frmEnrollment
         Me.MetroTabPage1.Controls.Add(Me.Button2)
         Me.MetroTabPage1.HorizontalScrollbarBarColor = True
         Me.MetroTabPage1.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage1.HorizontalScrollbarSize = 4
+        Me.MetroTabPage1.HorizontalScrollbarSize = 3
         Me.MetroTabPage1.Location = New System.Drawing.Point(4, 38)
         Me.MetroTabPage1.Name = "MetroTabPage1"
         Me.MetroTabPage1.Size = New System.Drawing.Size(1209, 576)
         Me.MetroTabPage1.TabIndex = 0
         Me.MetroTabPage1.VerticalScrollbarBarColor = True
         Me.MetroTabPage1.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage1.VerticalScrollbarSize = 5
+        Me.MetroTabPage1.VerticalScrollbarSize = 3
         '
         'DataGridView2
         '
